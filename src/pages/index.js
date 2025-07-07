@@ -11,3 +11,11 @@ if (searchButton) {
         body.classList.toggle('body_lock');
     });
 };
+
+const closePromo = document.querySelector('.header__promo-close-button');
+if (closePromo) {
+    const headerPromo = document.querySelector('.header__promo');
+    closePromo.addEventListener('click', function(e) {
+        headerPromo.classList.add('header__promo_hide');
+    });
+};

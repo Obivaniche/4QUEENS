@@ -6,3 +6,7 @@
 .footer__social-link:last-of-type {
     margin: 0;
 }
+
+.footer__social-link:hover .footer__social-icon {
+    fill: #83270C;
+}

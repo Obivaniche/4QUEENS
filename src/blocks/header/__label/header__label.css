@@ -1,8 +1,21 @@
 .header__label {
     margin: 0;
     padding: 0;
-    width: 1600px;
+    max-width: 1600px;
     height: 0;
     display: flex;
     opacity: 0;
+    animation: hide .4s forwards;
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+        height: 127px;
+    }
+
+    100% {
+        opacity: 0;
+        height: 0;
+    }
 }

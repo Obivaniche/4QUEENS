@@ -1,7 +1,3 @@
 .footer__social-icon {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 32px;
-    height: 32px;
+    transition: all .4s ease-out;
 }

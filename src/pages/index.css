@@ -1,12 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+@import url(../blocks/body/body.css);
 @import url(../blocks/body/_lock/body_lock.css);
 
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__promo/header__promo.css);
+@import url(../blocks/header/__promo/_hide/header__promo_hide.css);
 @import url(../blocks/header/__promo-text/header__promo-text.css);
 @import url(../blocks/header/__promo-close-button/header__promo-close-button.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -85,6 +87,9 @@
 
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/grid/__item/grid__item.css);
+@import url(../blocks/grid/__item/_white/grid__item_white.css);
+@import url(../blocks/grid/__item/_brown/grid__item_brown.css);
+@import url(../blocks/grid/__item/_red/grid__item_red.css);
 
 @import url(../blocks/club/club.css);
 @import url(../blocks/club/__title/club__title.css);
