@@ -1,5 +1,5 @@
 {
-  "name": "present_land",
+  "name": "4queens",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

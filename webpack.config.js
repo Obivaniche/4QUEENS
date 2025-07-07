@@ -1,26 +1,13 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
-let htmlPageNames = ['work', 'contact', 'workSingle'];
-let multipleHtmlPlugins = htmlPageNames.map(name => {
-  return new HtmlWebpackPlugin({
-    template: `./src/${name}.html`, // относительный путь к HTML-файлам
-    filename: `${name}.html`, // выходные HTML-файлы
-    chunks: [`${name}`] // соответствующие файлы JS
-  })
-});
+const MiniCssExtractPlugin = require('mini-css-extract-plugin'); 
 
 module.exports = {
-  entry: { main: './src/pages/index.js',
-    work: './src/pages/index.js',
-    contact: './src/pages/index.js',
-    workSingle: './src/pages/index.js'
-  },
+  entry: { main: './src/pages/index.js' },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: [__dirname].js,
+    filename: 'main.js',
     publicPath: ''
   },
   mode: 'development',
