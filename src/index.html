@@ -7,8 +7,6 @@
     <title>4QUEENS</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-
-    <link rel="stylesheet" href="pages/index.css">
     <script src="pages/index.js" defer></script>
 </head>
 
@@ -17,7 +15,7 @@
         <header class="header">
             <div class="header__promo">
                 <p class="header__promo-text">Карта с предсказанием в подарок к каждой покупке</p>
-                <img src="images/close-icon.svg" alt="Close button" class="header__promo-close-button">
+                <img src="<%=require('./images/close-icon.svg)%>" alt="Close button" class="header__promo-close-button">
             </div>
             <div class="header__container">
                 <div class="header__buttons-container">
@@ -25,24 +23,27 @@
                         <li class="header__button-box"><button class="header__button header__button_geo">Москва</button>
                         </li>
                         <li class="header__button-box"><button class="header__button header__button_search">
-                                <img src="images/search-icon.svg" alt="Search icon"
+                                <img src="<%=require('./images/search-icon.svg)%>" alt="Search icon"
                                     class="header__search-icon">Поиск</button>
                         </li>
                     </ul>
                 </div>
-                <a href="#" class="header__logo-link"><img src="images/logo-icon.svg" alt="Logo"></a>
+                <a href="#" class="header__logo-link"><img src="<%=require('./images/logo-icon.svg)%>" alt="Logo"></a>
                 <nav class="header__links-container">
                     <ul class="header__links-list">
-                        <li class="header__link-box"><a href="#" class="header__link"><img src="images/bucket-icon.svg"
-                                    alt="Bucket" class="header__link-icon">
+                        <li class="header__link-box"><a href="#" class="header__link"><img
+                                    src="<%=require('./images/bucket-icon.svg)%>" alt="Bucket"
+                                    class="header__link-icon">
                                 <span class="conter">[0]</span></a>
                         </li>
                         <li class="header__link-box"><a href="#" class="header__link"><img
-                                    src="images/favourites-icon.svg" alt="Favourites" class="header__link-icon">
+                                    src="<%=require('./images/favourites-icon.svg)%>" alt="Favourites"
+                                    class="header__link-icon">
                                 <span class="conter">[0]</span></a>
                         <li>
-                        <li class="header__link-box"><a href="#" class="header__link"><img src="images/login-icon.svg"
-                                    alt="Login" class="header__link-icon">Вход</a>
+                        <li class="header__link-box"><a href="#" class="header__link"><img
+                                    src="<%=require('./images/login-icon.svg)%>" alt="Login"
+                                    class="header__link-icon">Вход</a>
                         <li>
                     </ul>
                 </nav>
@@ -61,7 +62,7 @@
                 </nav>
             </div>
             <label class="header__label">
-            <input type="text" placeholder="Введите запрос" class="header__input">
+                <input type="text" placeholder="Введите запрос" class="header__input">
             </label>
         </header>
         <main class="content">
@@ -72,7 +73,7 @@
                 <div class="hero__concept">
                     <p class="hero__text">4 королевы</p>
                     <p class="hero__text">4 стихии</p>
-                    <img src="images/hero-img.png" alt="Hero image" class="hero__image">
+                    <img src="<%=require('./images/hero-img.png)%>" alt="Hero image" class="hero__image">
                     <p class="hero__text">4 женщины</p>
                     <p class="hero__text">4 времени года</p>
                 </div>
@@ -80,21 +81,21 @@
                     отобранный для самых разных типов кожи.</p>
             </section>
             <section class="categories">
-                <a href="#" class="categories__link"><img src="images/category-1.png" alt="Face"
+                <a href="#" class="categories__link"><img src="<%=require('./images/category-1.png)%>" alt="Face"
                         class="categories__img"><span class="categories__title">Лицо</span></a>
-                <a href="#" class="categories__link"><img src="images/category-2.png" alt="Body"
+                <a href="#" class="categories__link"><img src="<%=require('./images/category-2.png)%>" alt="Body"
                         class="categories__img">Тело</a>
                 <a href="#" class="categories__link">Макияж</a>
                 <a href="#" class="categories__link">Улыбка</a>
-                <a href="#" class="categories__link"><img src="images/category-5.png" alt="Hair"
+                <a href="#" class="categories__link"><img src="<%=require('./images/category-5.png)%>" alt="Hair"
                         class="categories__img">Волосы</a>
                 <a href="#" class="categories__link">Подарки</a>
                 <a href="#" class="categories__link">Для дома</a>
-                <a href="#" class="categories__link"><img src="images/category-8.png" alt="Jewelry"
+                <a href="#" class="categories__link"><img src="<%=require('./images/category-8.png)%>" alt="Jewelry"
                         class="categories__img">Украшения</a>
-                <a href="#" class="categories__link"><img src="images/category-9.png" alt="For man"
+                <a href="#" class="categories__link"><img src="<%=require('./images/category-9.png)%>" alt="For man"
                         class="categories__img">Для мужчин</a>
-                <a href="#" class="categories__link"><img src="images/category-10.png" alt="Gift cards"
+                <a href="#" class="categories__link"><img src="<%=require('./images/category-10.png)%>" alt="Gift cards"
                         class="categories__img">Подарочные сертификаты</a>
             </section>
             <section class="sales">
@@ -102,7 +103,8 @@
                 <div class="slider">
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-1.png" alt="Card image" class="card__image card__image_main">
+                            <img src="<%=require('./images/card-1.png)%>" alt="Card image"
+                                class="card__image card__image_main">
                             <h4 class="card__subtitle">Молочко для тела</h4>
                             <h4 class="card__title">payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -116,7 +118,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-2.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-2.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Сорбет для тела</h4>
                             <h4 class="card__title">Payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -130,7 +132,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-3.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-3.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Сыворотка для лица</h4>
                             <h4 class="card__title">Payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -144,7 +146,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-4.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-4.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Молочко для тела</h4>
                             <h4 class="card__title">Payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -157,8 +159,10 @@
                         </div>
                     </div>
                     <div class="slider__pagination">
-                        <div class="slider__button-prev"><img src="images/prev-icon.svg" alt="Previous"></div>
-                        <div class="slider__button-next"><img src="images/next-icon.svg" alt="Next"></div>
+                        <div class="slider__button-prev"><img src="<%=require('./images/prev-icon.svg)%>"
+                                alt="Previous"></div>
+                        <div class="slider__button-next"><img src="<%=require('./images/next-icon.svg)%>" alt="Next">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -167,7 +171,8 @@
                 <div class="slider">
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-1.png" alt="Card image" class="card__image card__image_main">
+                            <img src="<%=require('./images/card-1.png)%>" alt="Card image"
+                                class="card__image card__image_main">
                             <h4 class="card__subtitle">Молочко для тела</h4>
                             <h4 class="card__title">payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -181,7 +186,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-5.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-5.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Сорбет для тела</h4>
                             <h4 class="card__title">Payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -194,7 +199,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-6.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-6.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Сыворотка для лица</h4>
                             <h4 class="card__title">Payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -207,7 +212,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-1.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-1.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Молочко для тела</h4>
                             <h4 class="card__title">Payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -219,56 +224,60 @@
                         </div>
                     </div>
                     <div class="slider__pagination">
-                        <div class="slider__button-prev"><img src="images/prev-icon.svg" alt="Previous"></div>
-                        <div class="slider__button-next"><img src="images/next-icon.svg" alt="Next"></div>
+                        <div class="slider__button-prev"><img src="<%=require('./images/prev-icon.svg)%>"
+                                alt="Previous"></div>
+                        <div class="slider__button-next"><img src="<%=require('./images/next-icon.svg)%>" alt="Next">
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="annotation">
                 <h3 class="annotation__title">4QUEENS<span class="annotation__title_italic">4 королевы</span></h3>
                 <div class="annotation__container">
-                    <img src="images/annotation-img-1.png" alt="Ballerinas" class="annotation__main-image">
+                    <img src="<%=require('./images/annotation-img-1.png)%>" alt="Ballerinas"
+                        class="annotation__main-image">
                     <div class="annotation__content">
                         <p class="annotation__text">
                             — «четыре королевы» или «four queens» на английском, звучит как «for queens» и означает «для
                             королев». Мы вдохновляем женщин раскрывать свою уникальность, поддерживаем их на этом пути и
                             напоминаем, что каждая женщина заслуживает королевского отношения.
                         </p>
-                        <img src="images/annotation-img-2.png" alt="Queen" class="annotation__small-image">
+                        <img src="<%=require('./images/annotation-img-2.png)%>" alt="Queen"
+                            class="annotation__small-image">
                     </div>
                 </div>
             </section>
             <section class="grid">
-                <article class="grid__item"><img src="images/grid-img-1.png" alt="Image"></article>
-                <article class="grid__item"><img src="images/grid-img-2.png" alt="Image"></article>
-                <article class="grid__item"><img src="images/grid-img-3.png" alt="Image"></article>
-                <article class="grid__item"><img src="images/grid-img-4.png" alt="Image"></article>
-                <article class="grid__item"><img src="images/grid-img-5.png" alt="Image"></article>
-                <article class="grid__item"><img src="images/grid-img-6.png" alt="Image"></article>
-                <article class="grid__item"><img src="images/grid-img-7.png" alt="Image"></article>
-                <article class="grid__item"><img src="images/grid-img-8.png" alt="Image"></article>
+                <article class="grid__item"><img src="<%=require('./images/grid-img-1.png)%>" alt="Image"></article>
+                <article class="grid__item"><img src="<%=require('./images/grid-img-2.png)%>" alt="Image"></article>
+                <article class="grid__item"><img src="<%=require('./images/grid-img-3.png)%>" alt="Image"></article>
+                <article class="grid__item"><img src="<%=require('./images/grid-img-4.png)%>" alt="Image"></article>
+                <article class="grid__item"><img src="<%=require('./images/grid-img-5.png)%>" alt="Image"></article>
+                <article class="grid__item"><img src="<%=require('./images/grid-img-6.png)%>" alt="Image"></article>
+                <article class="grid__item"><img src="<%=require('./images/grid-img-7.png)%>" alt="Image"></article>
+                <article class="grid__item"><img src="<%=require('./images/grid-img-8.png)%>" alt="Image"></article>
             </section>
             <section class="club">
                 <h3 class="club__title">Клуб<span class="club__title_italic">4queens</span></h3>
                 <div class="club__card-grid">
                     <div class="club__card">
-                        <img src="images/star-icon.svg" alt="Star" class="club__card-icon">
+                        <img src="<%=require('./images/star-icon.svg)%>" alt="Star" class="club__card-icon">
                         <p class="club__card-text">Поддержка <br>и вдохновение</p>
                     </div>
                     <div class="club__card">
-                        <img src="images/star-icon.svg" alt="Star" class="club__card-icon">
+                        <img src="<%=require('./images/star-icon.svg)%>" alt="Star" class="club__card-icon">
                         <p class="club__card-text">совместные <br>проекты</p>
                     </div>
                     <div class="club__card">
-                        <img src="images/star-icon.svg" alt="Star" class="club__card-icon">
+                        <img src="<%=require('./images/star-icon.svg)%>" alt="Star" class="club__card-icon">
                         <p class="club__card-text">Эксклюзивные предложения</p>
                     </div>
                     <div class="club__card">
-                        <img src="images/star-icon.svg" alt="Star" class="club__card-icon">
+                        <img src="<%=require('./images/star-icon.svg)%>" alt="Star" class="club__card-icon">
                         <p class="club__card-text">Мастер-классы <br>и семинары</p>
                     </div>
                     <div class="club__card">
-                        <img src="images/star-icon.svg" alt="Star" class="club__card-icon">
+                        <img src="<%=require('./images/star-icon.svg)%>" alt="Star" class="club__card-icon">
                         <p class="club__card-text">Поддержка work-<br>life balance</p>
                     </div>
                 </div>
@@ -311,7 +320,8 @@
                 <div class="slider">
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-7.png" alt="Card image" class="card__image card__image_main">
+                            <img src="<%=require('./images/card-7.png)%>" alt="Card image"
+                                class="card__image card__image_main">
                             <h4 class="card__subtitle">Цветы</h4>
                             <h4 class="card__title">Букет для королевы<br>стихии «зима»</h4>
                             <div class="card__price-box">
@@ -321,7 +331,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-8.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-8.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Cвечи</h4>
                             <h4 class="card__title">mizu black<br>tourmaline</h4>
                             <div class="card__price-box">
@@ -335,7 +345,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-9.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-9.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Парфюм</h4>
                             <h4 class="card__title">Payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -345,7 +355,7 @@
                     </div>
                     <div class="slider__slide">
                         <div class="card">
-                            <img src="images/card-10.png" alt="Card image" class="card__image">
+                            <img src="<%=require('./images/card-10.png)%>" alt="Card image" class="card__image">
                             <h4 class="card__subtitle">Подарочные боксы</h4>
                             <h4 class="card__title">Payot Lait corps parfumé NEROLI DeTe</h4>
                             <div class="card__price-box">
@@ -354,14 +364,17 @@
                         </div>
                     </div>
                     <div class="slider__pagination">
-                        <div class="slider__button-prev"><img src="images/prev-icon.svg" alt="Previous"></div>
-                        <div class="slider__button-next"><img src="images/next-icon.svg" alt="Next"></div>
+                        <div class="slider__button-prev"><img src="<%=require('./images/prev-icon.svg)%>"
+                                alt="Previous"></div>
+                        <div class="slider__button-next"><img src="<%=require('./images/next-icon.svg)%>" alt="Next">
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
         <footer class="footer">
-            <a href="#" class="footer__logo-link"><img src="images/logo-icon.svg" alt="Logo" class="footer__logo"></a>
+            <a href="#" class="footer__logo-link"><img src="<%=require('./images/logo-icon.svg)%>" alt="Logo"
+                    class="footer__logo"></a>
             <div class="footer__container">
                 <div class="footer__column">
                     <form class="form">
@@ -391,7 +404,8 @@
                     </ul>
                     <ul class="footer__list">
                         <h3 class="footer__list-title">О бренде</h3>
-                        <li class="footer__list-item"><a href="#" class="footer__list-link">Подарочные сертификаты</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Подарочные сертификаты</a>
+                        </li>
                         <li class="footer__list-item"><a href="#" class="footer__list-link">Женский клуб</a></li>
                         <li class="footer__list-item"><a href="#" class="footer__list-link">Блог</a></li>
                         <li class="footer__list-item"><a href="#" class="footer__list-link">О бренде</a></li>
@@ -401,7 +415,8 @@
                 </div>
                 <div class="footer__column">
                     <ul class="footer__list">
-                        <li class="footer__list-item footer__list-item_margin"><a href="#" class="footer__list-link">Улыбка</a></li>
+                        <li class="footer__list-item footer__list-item_margin"><a href="#"
+                                class="footer__list-link">Улыбка</a></li>
                         <li class="footer__list-item"><a href="#" class="footer__list-link">Для мужчин</a></li>
                         <li class="footer__list-item"><a href="#" class="footer__list-link">Украшения</a></li>
                         <li class="footer__list-item"><a href="#" class="footer__list-link">Подарки</a></li>
@@ -409,11 +424,14 @@
                     </ul>
                     <ul class="footer__list">
                         <h3 class="footer__list-title">Покупателям</h3>
-                        <li class="footer__list-item"><a href="#" class="footer__list-link">Часто задаваемые вопросы</a></li>
-                        <li class="footer__list-item"><a href="#" class="footer__list-link">Программа лояльности</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Часто задаваемые вопросы</a>
+                        </li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Программа лояльности</a>
+                        </li>
                         <li class="footer__list-item"><a href="#" class="footer__list-link">Блог</a></li>
                         <li class="footer__list-item"><a href="#" class="footer__list-link">Доставка и оплата</a></li>
-                        <li class="footer__list-item"><a href="#" class="footer__list-link">Условия возрата товара</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__list-link">Условия возрата товара</a>
+                        </li>
                     </ul>
                     <a href="#" class="footer__link">Дизайн сайта</a>
                 </div>
@@ -421,15 +439,21 @@
                     <a href="tel: 88007005050" class="footer__phone">8 800 700 50 50</a>
                     <p class="footer__phone-text">Звонок по России - бесплатный</p>
                     <div class="footer__icon-box">
-                        <a href="#" class="footer__social-link"><img src="images/telegram-icon.svg" alt="Telegram" class="footer__social-icon"></a>
-                        <a href="#" class="footer__social-link"><img src="images/instagram-icon.svg" alt="Instagram" class="footer__social-icon"></a>
-                        <a href="#" class="footer__social-link"><img src="images/whatsapp-icon.svg" alt="Whatsapp" class="footer__social-icon"></a>
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/telegram-icon.svg)%>"
+                                alt="Telegram" class="footer__social-icon"></a>
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/instagram-icon.svg)%>"
+                                alt="Instagram" class="footer__social-icon"></a>
+                        <a href="#" class="footer__social-link"><img src="<%=require('./images/whatsapp-icon.svg)%>"
+                                alt="Whatsapp" class="footer__social-icon"></a>
                     </div>
                     <p class="footer__social-text">*Meta - запрещенная организация в Российской Федерации</p>
                     <div class="footer__card-box">
-                        <a href="#" class="footer__card-link"><img src="images/visa-icon.svg" alt="Visa"></a>
-                        <a href="#" class="footer__card-link"><img src="images/mastercard-icon.svg" alt="MasterCard"></a>
-                        <a href="#" class="footer__card-link"><img src="images/mir-icon.svg" alt="MIR"></a>
+                        <a href="#" class="footer__card-link"><img src="<%=require('./images/visa-icon.svg)%>"
+                                alt="Visa"></a>
+                        <a href="#" class="footer__card-link"><img src="<%=require('./images/mastercard-icon.svg)%>"
+                                alt="MasterCard"></a>
+                        <a href="#" class="footer__card-link"><img src="<%=require('./images/mir-icon.svg)%>"
+                                alt="MIR"></a>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,5 @@
+import '../pages/index.css';
+
 const searchButton = document.querySelector('.header__button_search');
 if (searchButton) {
     const searchInput = document.querySelector('.header__label');
