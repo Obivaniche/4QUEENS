@@ -34,16 +34,15 @@ module.exports = {
           loader: 'css-loader',
           options: { importLoaders: 1 }
         },
-          'postcss-loader']
+        'postcss-loader']
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin
-    ({
-      template: "./src/index.html",
-      chunks: ['main']
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html'
     }),
-  new CleanWebpackPlugin(),
-  new MiniCssExtractPlugin()]
-    .concat(multipleHtmlPlugins)
+    new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin()
+  ]
 };
