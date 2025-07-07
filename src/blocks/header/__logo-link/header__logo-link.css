@@ -1,0 +1,11 @@
+.header__logo-link {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 158px;
+    height: 41px;
+    position: absolute;
+    top: 61px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

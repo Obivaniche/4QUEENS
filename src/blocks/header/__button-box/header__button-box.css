@@ -1,0 +1,7 @@
+.header__button-box {
+    margin: 0 34px 0 0;
+}
+
+.header__button-box:last-of-type {
+    margin: 0;
+}

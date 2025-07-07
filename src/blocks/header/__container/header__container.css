@@ -1,0 +1,6 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    margin: 32px 100px 0 100px;
+    padding: 0;
+}

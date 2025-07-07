@@ -1,0 +1,9 @@
+.annotation__text {
+    margin: 0;
+    padding: 0;
+    max-width: 470px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}

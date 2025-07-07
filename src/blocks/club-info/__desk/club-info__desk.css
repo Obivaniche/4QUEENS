@@ -1,0 +1,15 @@
+.club-info__desk {
+    margin: 0 100px 0 auto;
+    padding: 112px 0;
+    background-image: url(../../../images/background-club.png);
+    width: 687px;
+    height: 797px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    position: relative;
+}

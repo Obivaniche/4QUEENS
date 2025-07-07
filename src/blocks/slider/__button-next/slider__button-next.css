@@ -1,0 +1,11 @@
+.slider__button-next {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: all .4s ease-out;
+    opacity: .5;
+}
+
+.slider__button-next:hover {
+    opacity: 1;
+}

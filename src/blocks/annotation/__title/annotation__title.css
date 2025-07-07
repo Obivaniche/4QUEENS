@@ -1,0 +1,11 @@
+.annotation__title {
+    margin: 0 0 0 288px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 114px;
+    line-height: 100%;
+    font-variant-numeric: lining-nums;
+    text-transform: uppercase;
+    color: #150603;
+}

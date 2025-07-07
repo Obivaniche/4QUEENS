@@ -1,0 +1,18 @@
+.form__button {
+    margin: 0 0 0 25px;
+    padding: 0;
+    width: 180px;
+    height: 50px;
+    background-color: #150603;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110%;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+
+.form__button:hover {
+    background-color: #83270C;
+}

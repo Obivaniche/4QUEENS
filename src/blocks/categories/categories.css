@@ -1,0 +1,10 @@
+.categories {
+    max-width: 1400px;
+    margin: 180px auto 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 260px);
+    grid-template-rows: repeat(2, 290px);
+    row-gap: 26px;
+    column-gap: 24px;
+}

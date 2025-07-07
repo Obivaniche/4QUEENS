@@ -1,0 +1,9 @@
+.slider {
+    margin: 32px auto 0 auto;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    align-items: end;
+    justify-content: left;
+    position: relative;
+}

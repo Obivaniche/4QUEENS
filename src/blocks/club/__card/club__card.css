@@ -1,0 +1,9 @@
+.club__card {
+    margin: 0 25px 0 0;
+    padding: 0;
+    width: 258px;
+    height: 655px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(184, 129, 73, 0.1);
+}

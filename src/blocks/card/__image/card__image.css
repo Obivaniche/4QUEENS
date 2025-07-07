@@ -1,0 +1,10 @@
+.card__image {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 258px;
+    height: 312px;
+    border: 1px solid rgba(184, 129, 73, 0.1);
+    object-position: center;
+    object-fit: cover;
+}

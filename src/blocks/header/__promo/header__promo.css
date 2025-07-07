@@ -1,0 +1,7 @@
+.header__promo {
+    background-color: #83270C;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}

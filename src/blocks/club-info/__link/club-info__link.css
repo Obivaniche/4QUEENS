@@ -1,0 +1,21 @@
+.club-info__link {
+    margin: 35px auto 0 auto;
+    padding: 0;
+    width: 259px;
+    height: 54px;
+    background-color: #83270C;
+    color: #FCFBF6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all .4s ease-out;
+}
+
+.club-info__link:hover {
+    background-color: #B88149;
+}

@@ -1,0 +1,15 @@
+.grid {
+    margin: 221px auto 0 auto;
+    padding: 180px 0 131px 0;
+    max-width: 1600px;
+    background-image: url(../../images/background.png);
+    display: grid;
+    grid-template-columns: repeat(2, 687px);
+    grid-template-rows: repeat(4, 797px);
+    column-gap: 26px;
+    row-gap: 25px;
+    background-position: top;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}

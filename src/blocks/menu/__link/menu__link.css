@@ -1,0 +1,13 @@
+.menu__link {
+    text-decoration: none;
+    color: #150603;
+    font-size: 15px;
+    line-height: 110%;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    transition: all .4s ease-out;
+}
+
+.menu__link:hover {
+    color: #83270C;
+}

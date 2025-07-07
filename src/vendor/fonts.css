@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(../vendor/fonts/Raleway-Regular.woff2) format('woff2'),
+    url(../vendor/fonts/Raleway-Regular.woff) format('woff'),
+    url(../vendor/fonts/Raleway-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(../vendor/fonts/Raleway-Medium.woff2) format('woff2'),
+    url(../vendor/fonts/Raleway-Medium.woff) format('woff'),
+    url(../vendor/fonts/Raleway-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'STIXGeneral';
+  src: url(../vendor/fonts/STIXGeneral.woff2) format('woff2'),
+    url(../vendor/fonts/STIXGeneral.woff) format('woff'),
+    url(../vendor/fonts/STIXGeneral.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'STIXRegular';
+  src: url(../vendor/fonts/STIXRegular.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}

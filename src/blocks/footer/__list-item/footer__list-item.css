@@ -1,0 +1,16 @@
+.footer__list-item {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.footer__list-item:first-of-type {
+    margin: 15px 0 10px 0;
+}
+
+.footer__list-item:last-of-type {
+    margin: 0;
+}
+
+.footer__list-item:nth-child(1) {
+    margin-top: 31px;
+}

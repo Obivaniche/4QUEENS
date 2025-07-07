@@ -1,0 +1,16 @@
+.footer__phone {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #150603;
+    font-variant-numeric: lining-nums;
+    text-decoration: none;
+    transition: all .4s ease-out;
+}
+
+.footer__phone:hover {
+    color: #83270C;
+}

@@ -1,0 +1,11 @@
+.club-info__description {
+    margin: 50px auto 0 auto;
+    padding: 0;
+    max-width: 478px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #B88149;
+}

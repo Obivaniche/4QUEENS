@@ -1,0 +1,9 @@
+.annotation__title_italic {
+    position: absolute;
+    text-wrap: nowrap;
+    top: 114px;
+    left: 573px;
+    text-transform: lowercase;
+    font-family: 'STIXGeneral';
+    font-weight: 400;
+}

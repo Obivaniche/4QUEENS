@@ -1,0 +1,18 @@
+.header__input {
+    margin: 0;
+    padding: 45.5px 172px;
+    width: 100%;
+    border: none;
+    background-color: #FCFBF6;
+    background-image: url(../../../images/search-icon-big.svg);
+    background-repeat: no-repeat;
+    background-size: 47px;
+    background-position: 100px center;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 90%;
+    color: #150603;
+}
+

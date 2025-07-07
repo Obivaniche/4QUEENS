@@ -1,0 +1,13 @@
+.club__card-text {
+    margin: auto auto 58px auto;
+    padding: 0;
+    max-width: 188px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    letter-spacing: .05em;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
