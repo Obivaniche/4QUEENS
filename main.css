@@ -93,7 +93,7 @@
 .gifts{display:flex;flex-direction:column;margin:180px auto 0;max-width:1400px;position:relative}
 .gifts__title{font-family:Raleway,sans-serif;font-size:114px;font-weight:500;line-height:100%;margin:0 0 0 66px;padding:0}
 .gifts__title_italic{font-family:STIXGeneral,sans-serif;margin-left:23px;position:absolute;top:103px}
-.footer{margin:180px auto 0;max-width:1600px;padding:0 100px 25px}
+.footer{margin:180px auto 0;max-width:1400px;padding:0 100px 25px}
 .footer__logo-link{height:50px;margin:0;padding:0;width:193px}
 .footer__logo{display:block;height:50px;margin:0;padding:0;width:193px}
 .footer__container{display:flex;margin:39px auto 0;padding:0}
