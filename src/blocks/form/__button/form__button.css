@@ -11,6 +11,7 @@
     line-height: 110%;
     cursor: pointer;
     transition: all .4s ease-out;
+    border: none;
 }
 
 .form__button:hover {
