@@ -1,0 +1,21 @@
+.form__button-next {
+    margin:  0;
+    padding: 0;
+    border: none;
+    width: 259px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B88149;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FCFBF6;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+
+.form__button-next:hover {
+    background-color: #83270C;
+}
