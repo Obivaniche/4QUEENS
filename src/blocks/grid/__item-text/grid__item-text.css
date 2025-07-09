@@ -1,0 +1,10 @@
+.grid__item-text {
+    margin: auto auto 50px auto;
+    padding: 0;
+    max-width: 500px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #B88149;
+}

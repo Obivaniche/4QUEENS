@@ -1,0 +1,16 @@
+.grid__item-call {
+    margin: 30px auto 0 auto;
+    padding: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: -.03em;
+    text-transform: uppercase;
+    color: #B88149;
+    font-variant-numeric: lining-nums;
+}
+
+.grid__item-call:last-of-type {
+    margin: 216px auto 0 auto;
+}

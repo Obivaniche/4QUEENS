@@ -5,6 +5,7 @@
 @import url(../blocks/body/_lock/body_lock.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/page_test/page_test.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__promo/header__promo.css);
@@ -87,6 +88,12 @@
 
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/grid/__item/grid__item.css);
+@import url(../blocks/grid/__item-title/grid__item-title.css);
+@import url(../blocks/grid/__item-icon/grid__item-icon.css);
+@import url(../blocks/grid/__item-call/grid__item-call.css);
+@import url(../blocks/grid/__item-call/_italic/grid__item-call_italic.css);
+@import url(../blocks/grid/__item-text/grid__item-text.css);
+@import url(../blocks/grid/__item-link/grid__item-link.css);
 @import url(../blocks/grid/__item/_white/grid__item_white.css);
 @import url(../blocks/grid/__item/_brown/grid__item_brown.css);
 @import url(../blocks/grid/__item/_red/grid__item_red.css);
@@ -142,3 +149,20 @@
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/form/__info/form__info.css);
+@import url(../blocks/form/__radio/form__radio.css);
+@import url(../blocks/form/_radio/form_radio.css);
+@import url(../blocks/form/form__radio-group/form__radio-group.css);
+@import url(../blocks/form/__radio-label/form__radio-label.css);
+
+@import url(../blocks/test-page/test-page.css);
+@import url(../blocks/test-page/_main/test-page_main.css);
+@import url(../blocks/test-page/_question/test-page_question.css);
+@import url(../blocks/test-page/__title/test-page__title.css);
+@import url(../blocks/test-page/__text/test-page__text.css);
+@import url(../blocks/test-page/__button-start/test-page__button-start.css);
+@import url(../blocks/test-page/__title/_italic/test-page__title_italic.css);
+@import url(../blocks/test-page/__button-close/test-page__button-close.css);
+@import url(../blocks/test-page/__button-icon/test-page__button-icon.css);
+@import url(../blocks/test-page/__question/test-page__question.css);
+@import url(../blocks/test-page/__number/test-page__number.css);
+@import url(../blocks/test-page/__point/test-page__point.css);

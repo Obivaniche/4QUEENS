@@ -1,0 +1,18 @@
+.form__radio {
+    appearance: none;
+    background: transparent;
+    border: 1px solid #FCFBF6;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0 15px 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FCFBF6;
+}
+
+.form__radio:checked {
+    background-color: #83270C;
+}

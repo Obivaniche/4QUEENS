@@ -1,0 +1,13 @@
+.test-page__title {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: 680px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 90%;
+    text-transform: uppercase;
+    color: #FCFBF6;
+    text-align: center;
+    font-variant-numeric: lining-nums;
+}

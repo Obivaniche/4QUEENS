@@ -1,0 +1,10 @@
+.test-page__number {
+    margin: 0;
+    padding: 0;
+    font-family: 'STIXGeneral', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 90%;
+    font-variant-numeric: lining-nums;
+    color: #B88149;
+}

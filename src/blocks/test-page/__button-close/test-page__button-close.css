@@ -1,0 +1,12 @@
+.test-page__button-close {
+    position: absolute;
+    background: transparent;
+    border: none;
+    top: 20px;
+    right: 100px;
+    cursor: pointer;
+}
+
+.test-page__button-close:hover .test-page__button-icon {
+    fill: #83270C;
+}
