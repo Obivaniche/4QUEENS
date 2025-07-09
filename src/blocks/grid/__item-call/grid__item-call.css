@@ -10,7 +10,3 @@
     color: #B88149;
     font-variant-numeric: lining-nums;
 }
-
-.grid__item-call:last-of-type {
-    margin: 216px auto 0 auto;
-}
