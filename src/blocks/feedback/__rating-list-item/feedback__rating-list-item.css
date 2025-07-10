@@ -1,0 +1,8 @@
+.feedback__rating-list-item {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+.feedback__rating-list-item:last-of-type {
+    margin: 0;
+}

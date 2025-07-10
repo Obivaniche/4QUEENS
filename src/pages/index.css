@@ -246,3 +246,18 @@
 
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__contents/feedback__contents.css);
+@import url(../blocks/feedback/__counter/feedback__counter.css);
+@import url(../blocks/feedback/__add-button/feedback__add-button.css);
+@import url(../blocks/feedback/__plus/feedback__plus.css);
+@import url(../blocks/feedback/__grid/feedback__grid.css);
+@import url(../blocks/feedback/__card/feedback__card.css);
+@import url(../blocks/feedback/__info/feedback__info.css);
+@import url(../blocks/feedback/__rating-list/feedback__rating-list.css);
+@import url(../blocks/feedback/__name/feedback__name.css);
+@import url(../blocks/feedback/__rating-list-item/feedback__rating-list-item.css);
+@import url(../blocks/feedback/__rating-star/feedback__rating-star.css);
+@import url(../blocks/feedback/__date/feedback__date.css);
+@import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/feedback/__images/feedback__images.css);
+@import url(../blocks/feedback/__image/feedback__image.css);
+@import url(../blocks/feedback/__link/feedback__link.css);

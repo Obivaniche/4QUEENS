@@ -1,0 +1,22 @@
+.feedback__add-button {
+    margin: 0 0 auto 0;
+    padding: 0;
+    border: none;
+    width: 156px;
+    height: 24px;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #150603;
+    transition: all .4s ease-out;
+}
+
+.feedback__add-button:hover {
+    color: #83270C;
+}

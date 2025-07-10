@@ -1,0 +1,10 @@
+.feedback__text {
+    margin: 20px 0 0 0;
+    padding: 0;
+    max-width: 365px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #150603;
+    font-variant-numeric: lining-nums;
+}

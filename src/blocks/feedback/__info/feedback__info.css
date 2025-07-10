@@ -1,7 +1,6 @@
-.feedback__contents {
-    margin: 0 0 18px 0;
+.feedback__info {
+    margin: 30px 0 0 0;
     padding: 0;
     display: flex;
-    width: 100%;
     justify-content: space-between;
 }
