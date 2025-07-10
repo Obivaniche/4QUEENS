@@ -1,0 +1,6 @@
+.product__presentation-box {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 830px;
+}

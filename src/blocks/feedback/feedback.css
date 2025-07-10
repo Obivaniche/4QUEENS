@@ -1,0 +1,8 @@
+.feedback {
+    margin: 0 0 0 25px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}

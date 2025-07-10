@@ -1,0 +1,10 @@
+.product__rating-list-item {
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 20px;
+    height: 20px; 
+}
+
+.product__rating-list-item:last-of-type {
+    margin: 0;
+}

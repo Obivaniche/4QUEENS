@@ -1,0 +1,9 @@
+.slider__button-next_white {
+    transform: rotate(180deg);
+    transform-origin: center;
+}
+
+.slider__button-next_white:hover {
+    fill-opacity: 1;
+    cursor: pointer;
+}

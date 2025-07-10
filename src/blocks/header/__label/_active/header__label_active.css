@@ -1,5 +1,6 @@
 .header__label_active {
     animation: show .4s forwards;
+    pointer-events: all;
 }
 
 @keyframes show {

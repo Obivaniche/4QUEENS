@@ -1,0 +1,4 @@
+.information__arrow_active {
+    transition: all .4s ease-out;
+    transform: rotate(180deg);
+}

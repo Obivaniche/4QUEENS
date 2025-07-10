@@ -1,0 +1,8 @@
+.information__arrow {
+    display: block;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: all .4s ease-out;
+    transform: rotate(0deg);
+}

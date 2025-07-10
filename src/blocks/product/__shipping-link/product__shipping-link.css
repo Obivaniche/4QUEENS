@@ -1,0 +1,13 @@
+.product__shipping-link {
+    margin: 0 0 0 12px;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: lowercase;
+    transition: all .4s ease-out;
+}
+
+.product__shipping-link:hover {
+    color: #83270C;
+}

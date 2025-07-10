@@ -3,6 +3,6 @@
     display: flex;
     right: 0;
     top: 0;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    width: 132px;
 }

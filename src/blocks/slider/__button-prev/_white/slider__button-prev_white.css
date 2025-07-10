@@ -1,0 +1,8 @@
+.slider__button-prev_white {
+    transition: all .4s ease-out;
+}
+
+.slider__button-prev_white:hover {
+    fill-opacity: 1;
+    cursor: pointer;
+}

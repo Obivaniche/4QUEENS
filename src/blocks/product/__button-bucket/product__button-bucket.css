@@ -1,0 +1,26 @@
+.product__button-bucket {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 203px;
+    height: 45px;
+    background-color: #83270C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCFBF6;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+
+.product__button-bucket:hover {
+    background-color: #B88149;
+}
+
+.product__button-bucket:active {
+    background-color: #150603;
+}

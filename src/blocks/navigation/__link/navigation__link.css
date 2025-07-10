@@ -1,0 +1,15 @@
+.navigation__link {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110%;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    transition: all .4s ease-out;
+}
+
+.navigation__link:hover {
+    color: #83270C;
+}

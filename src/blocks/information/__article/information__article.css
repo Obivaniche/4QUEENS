@@ -1,0 +1,10 @@
+.information__article {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(184, 129, 73, 0.1);
+    width: 100%;
+}
+
+.information__article:last-of-type {
+    border-bottom: 1px solid rgba(184, 129, 73, 0.1);
+}

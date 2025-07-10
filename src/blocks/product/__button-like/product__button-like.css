@@ -1,0 +1,25 @@
+.product__button-like {
+    margin: 0 0 0 10px;
+    padding: 0;
+    border: none;
+    width: 47px;
+    height: 45px;
+    background-color: #83270C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCFBF6;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    cursor: pointer;
+    transition: all .4s ease-out;
+    background-image: url(../../../images/like-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product__button-like:hover {
+    background-color: #B88149;
+}

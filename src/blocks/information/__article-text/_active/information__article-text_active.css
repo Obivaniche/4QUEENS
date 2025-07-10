@@ -1,0 +1,19 @@
+.information__article-text_active {
+    margin: 0 0 18px 0;
+    line-height: 120%;
+    font-size: 14px;
+    pointer-events: all;
+    animation: show .4s forwards;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    100% {
+        opacity: 1;
+        height: 100%;
+    }
+}
