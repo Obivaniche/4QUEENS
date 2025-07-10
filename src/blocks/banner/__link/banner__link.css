@@ -1,0 +1,22 @@
+.banner__link {
+    margin: 30px 0 0 0;
+    padding: 0;
+    width: 259px;
+    height: 54px;
+    background-color: #FCFBF6;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #150603;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all .4s ease-out;
+}
+
+.banner__link:hover {
+    background-color: #83270C;
+    color: #FCFBF6;
+}
