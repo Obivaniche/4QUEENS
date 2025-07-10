@@ -29,6 +29,7 @@
 @import url(../blocks/header/__label/header__label.css);
 @import url(../blocks/header/__label/_active/header__label_active.css);
 @import url(../blocks/header/__input/header__input.css);
+@import url(../blocks/header/__input/_active/header__input_active.css);
 
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__icon/menu__icon.css);
@@ -261,3 +262,5 @@
 @import url(../blocks/feedback/__images/feedback__images.css);
 @import url(../blocks/feedback/__image/feedback__image.css);
 @import url(../blocks/feedback/__link/feedback__link.css);
+
+@import url(../blocks/banner/banner.css);
