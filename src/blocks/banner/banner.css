@@ -1,10 +1,13 @@
 .banner {
     margin: 0 auto 54px auto;
-    padding: 0;
+    padding: 100px 0 75px 0;
     width: 1400px;
-    height: 334px;
     background-image: url(../../images/banner.jpg);
     background-position: center;
     background-size: cover;
     opacity: .9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
