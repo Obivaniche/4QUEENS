@@ -63,6 +63,7 @@
 @import url(../blocks/slider/_finish/slider_finish.css);
 @import url(../blocks/slider/__pagination/slider__pagination.css);
 @import url(../blocks/slider/__pagination/_finish/slider__pagination_finish.css);
+@import url(../blocks/slider/__pagination/_catalog/slider__pagination_catalog.css);
 @import url(../blocks/slider/__button-prev/slider__button-prev.css);
 @import url(../blocks/slider/__button-prev/_white/slider__button-prev_white.css);
 @import url(../blocks/slider/__button-next/slider__button-next.css);
@@ -273,3 +274,7 @@
 @import url(../blocks/banner/__link/banner__link.css);
 
 @import url(../blocks/filters/filters.css);
+@import url(../blocks/filters/__buttons-container/filters__buttons-container.css);
+@import url(../blocks/filters/__button/filters__button.css);
+@import url(../blocks/filters/__count/filters__count.css);
+@import url(../blocks/filters/__icon/filters__icon.css);

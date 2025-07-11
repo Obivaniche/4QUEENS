@@ -1,0 +1,25 @@
+.filters__button {
+    margin: 0 23px 0 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #150603;
+    transition: all .4s ease-out;
+}
+
+.filters__button:last-of-type {
+    margin: 0;
+}
+
+.filters__button:hover {
+   color: #83270C;
+}

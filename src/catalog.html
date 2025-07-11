@@ -76,7 +76,6 @@
                     <span>\</span>
                     <li class="navigation__item"><a href="catalog.html"
                             class="navigation__link navigation__link_active">Каталог</a></li>
-                    <span>\</span>
                 </ul>
             </nav>
             <section class="categories categories_catalog">
@@ -94,14 +93,32 @@
                         class="categories__img categories__img_catalog">Украшения</a>
                 <a href="#" class="categories__link"><img src="./images/category-10.png" alt="Gift cards"
                         class="categories__img categories__img_catalog">Подарочные сертификаты</a>
-            </section>
-
-            <div class="filters">
-                <div>
-                    <button>Фильтры</button>
-                    <button>По цене</button>
+                <div class="slider__pagination slider__pagination_catalog">
+                    <svg width="55" height="6" viewBox="0 0 55 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="slider__button-prev"
+                            d="M0 3L5 5.88675V0.113249L0 3ZM54.5 3V2.5L4.5 2.5V3V3.5L54.5 3.5V3Z" fill="#000000"
+                            fill-opacity="0.5" />
+                    </svg>
+                    <svg width="55" height="6" viewBox="0 0 55 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="slider__button-next"
+                            d="M0 3L5 5.88675V0.113249L0 3ZM54.5 3V2.5L4.5 2.5V3V3.5L54.5 3.5V3Z" fill="#000000"
+                            fill-opacity="0.5" />
+                    </svg>
                 </div>
-                <p class="filters__count"><span>125</span>товаров</p>
+            </section>
+            <div class="filters">
+                <div class="filters__buttons-container">
+                    <button class="filters__button filters__button_menu">Фильтры<img src="images/filter-icon.svg"
+                            alt="Filters" class="filters__icon"></button>
+                    <button class="filters__button">По цене<img src="images/arrow-icon.svg" alt="Arrow"
+                            class="filters__icon"></button>
+                </div>
+                <p class="filters__count"><span>125</span> товаров</p>
+            </div>
+
+            <div class="catalog__grid catalog__grid_main">
+                <div></div>
+
             </div>
 
             <section class="additional">
